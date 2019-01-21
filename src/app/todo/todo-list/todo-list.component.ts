@@ -11,7 +11,7 @@ import * as fromFilter from "../../filter/filter.actions"
 })
 export class TodoListComponent implements OnInit {
 
-  private todos: Todo[] = [];
+  public todos: Todo[] = [];
   filter: fromFilter.filtrosValidos;
   constructor(private store: Store<AppState>) { }
 
